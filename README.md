@@ -1,5 +1,4 @@
-# landing-starnight
-Landing Page "Starnight"
+# Landing Page "Starnight"
 
 PSD template was found in the Internet and I've created this beatiful and simple site.
 Technologies I used:
