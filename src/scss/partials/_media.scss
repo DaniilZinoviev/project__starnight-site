@@ -1,0 +1,40 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {
+	
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+	h2 {
+		font-size: 3em;
+	}
+	section.section-first {
+
+		.main {
+			padding-bottom: 120px;
+		}
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+	h1 {
+		font-size: 3.25em;
+	}
+	h2 {
+		font-size: 2.85em;
+	}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+	html {
+		font-size: 15px;
+	}
+	h1 {
+		font-size: 2.95em;
+	}
+}

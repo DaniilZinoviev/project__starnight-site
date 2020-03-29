@@ -1,0 +1,19 @@
+{
+  "name": "starnight",
+  "description": "Landing simple page",
+  "main": "",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*",
+    "slick-carousel": "^1.8.1"
+  }
+}

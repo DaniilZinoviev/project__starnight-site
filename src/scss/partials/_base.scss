@@ -1,0 +1,67 @@
+html {
+	font-size: 16px;
+}
+body {
+	font-family: 'Lato';
+	line-height: 1.6;
+}
+h1, h2 {
+	line-height: 1;
+}
+h1 {
+	font-size: 3.75em;
+}
+h2 {
+	font-size: 3.25em;
+}
+.btn {
+	padding: 10px 40px;
+	border-radius: 3px;
+	color: $c-white;
+	font-size: 1.25em;
+	font-weight: bold;
+	&-info {
+		background-color: $c-info;
+		border-color: $c-info;
+		&:hover {
+			background-color: darken($c-info, 20%) !important;
+			border-color: darken($c-info, 20%) !important;
+		}
+		&:active {
+			background-color: darken($c-info, 30%) !important;
+			border-color: darken($c-info, 30%) !important;
+		}
+		&:focus {
+			background-color: $c-info;
+			border-color: $c-info;
+			box-shadow: none !important;
+		}
+	}
+	&-danger {
+		background-color: $c-pink;
+		border-color: $c-pink;
+		&:hover {
+			background-color: darken($c-pink, 5%) !important;
+			border-color: darken($c-pink, 5%) !important;
+		}
+		&:active {
+			background-color: darken($c-pink, 10%) !important;
+			border-color: darken($c-pink, 10%) !important;
+		}
+		&:focus {
+			background-color: $c-pink;
+			border-color: $c-pink;
+			box-shadow: none !important;
+		}
+	}
+}
+.outline-none {
+	outline: 0 !important;
+	box-shadow: none !important;
+}
+.slider {
+	overflow: hidden;
+	.slide {
+		float: left;
+	}
+}
