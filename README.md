@@ -12,7 +12,6 @@ Features and libraries:
 
 ## How to launch?
 
-1) Donwload archive or clone repository
-2) Run ```npm i``` and ```bower install``` to install necessary packages
-3) Run ```gulp```
-It will open a browser window on localhost:3000/ with this site
+1) Donwload archive or clone repository.
+2) Run ```npm i``` and ```bower install``` to install necessary packages.
+3) Run ```gulp```. It will open a browser window on localhost:3000/ with this site.
