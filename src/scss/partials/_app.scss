@@ -147,30 +147,30 @@ section.section-second {
 
 	}
 	.dots {
-			display: flex !important;
-			position: relative;
-			justify-content: center;
-			padding: 0;
-			padding-top: 45px;
-			list-style-type: none;
-			z-index: 4;
-			>li {
-				float: left;
-				margin-right: 10px;
-				width: 14px;
-				height: 14px;
-				border: 3px solid $c-white;
-				border-radius: 50%;
-				background-color: transparent;
-				cursor: pointer;
-				&.slick-active {
-					background: $c-white;
-				}
-				button {
-					display: none;
-				}
+		display: flex !important;
+		position: relative;
+		justify-content: center;
+		padding: 0;
+		padding-top: 45px;
+		list-style-type: none;
+		z-index: 4;
+		>li {
+			float: left;
+			margin-right: 10px;
+			width: 14px;
+			height: 14px;
+			border: 3px solid $c-white;
+			border-radius: 50%;
+			background-color: transparent;
+			cursor: pointer;
+			&.slick-active {
+				background: $c-white;
+			}
+			button {
+				display: none;
 			}
 		}
+	}
 }
 
 
